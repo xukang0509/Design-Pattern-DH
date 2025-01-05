@@ -10,6 +10,7 @@ public class StockObserver extends Observer {
         super(name, sub);
     }
 
+    @Override
     public void update() {
         System.out.println(String.format("%s：%s！%s，请关闭股票行情，赶紧工作。",
                 super.sub.name, super.sub.getAction(), super.name));

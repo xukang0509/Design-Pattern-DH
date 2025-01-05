@@ -10,6 +10,7 @@ public class NBAObserver extends Observer {
         super(name, sub);
     }
 
+    @Override
     public void update() {
         System.out.println(String.format("%s：%s！%s，请关闭NBA直播，赶紧工作。",
                 super.sub.name, super.sub.getAction(), super.name));
