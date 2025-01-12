@@ -13,10 +13,14 @@ public abstract class Company {
     }
 
     // 添加
-    public abstract void add(Company company);
+    public void add(Company company) {
+        throw new UnsupportedOperationException();
+    }
 
     // 移除
-    public abstract void remove(Company company);
+    public void remove(Company company) {
+        throw new UnsupportedOperationException();
+    }
 
     // 显示
     public abstract void display(int depth);
