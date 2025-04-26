@@ -11,6 +11,7 @@ import com.shanhai._5_factoryMethod.cash.saleImp.CashReturn;
  * @author: xu
  * @date: 2024/12/29 18:25
  */
+@SuppressWarnings("all")
 public class CashReturnRebateFactory implements ISaleFactory {
     private Double moneyRebate = 1.0d; // 折扣
     private Double moneyCondition = 0d; // 返利条件

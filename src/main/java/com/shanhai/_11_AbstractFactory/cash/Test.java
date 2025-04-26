@@ -7,6 +7,7 @@ import java.util.Scanner;
  * @author: xu
  * @date: 2024/12/29 16:32
  */
+@SuppressWarnings("all")
 public class Test {
     public static void main(String[] args) {
         int discount; // 商品销售模式 1.原价 2.八折 3.七折 4.满300减100

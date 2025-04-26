@@ -21,7 +21,6 @@ public class Test {
 
                 IOperation operation = OperationFactory.createOperation(operator);
                 Double result = operation.calculate(numberA, numberB);
-
                 switch (operator) {
                     case "+":
                     case "-":
@@ -36,8 +35,6 @@ public class Test {
                         System.out.println(String.format("log%s(%s) = %s", numberA, numberB, result));
                         break;
                 }
-
-
                 System.out.println("=".repeat(80));
             } catch (Exception e) {
                 System.out.println("您的输入有误：" + e);

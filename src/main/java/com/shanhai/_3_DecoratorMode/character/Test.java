@@ -5,6 +5,7 @@ package com.shanhai._3_DecoratorMode.character;
  * @author: xu
  * @date: 2024/12/29 15:43
  */
+@SuppressWarnings("All")
 public class Test {
     public static void main(String[] args) {
         Person xc = new Person("小菜");

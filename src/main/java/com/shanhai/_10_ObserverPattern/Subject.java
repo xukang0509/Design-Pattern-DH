@@ -32,9 +32,7 @@ public abstract class Subject {
     // 通知同事
     public void notifyEmployee() {
         // 待老板来了，就给所有登记过的同事发通知
-        for (Observer emp : list) {
-            emp.update();
-        }
+        list.forEach(Observer::update);
     }
 
     // 得到状态
